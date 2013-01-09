@@ -1,9 +1,13 @@
-//"D'ici quelques heures ça sera sur Github" - Wolfgang Amadeus Mozart
+/* CuteFF // ff.js
+   Copyright (c) 2012 outa[dev].
+*/
+
+//"Si toi aussi tu vas à la minecon pousse vert !11" - Jean-Kévin de la Kikoulerie
 
 //main function
 (function(){
 	//we first display a introduction sentence
-	charByChar('Initializing #FollowFriday protocol. Begin:', function() {
+	charByChar('WELL, WELL, WELL.', function() {
 		//when it's displayed,
 		//add a return
 		document.getElementById('ff-container').innerHTML += '<br />';
@@ -12,7 +16,7 @@
 	}, 1000); //1000 milliseconds will be waited before calling the callback
 	
 	var index = 0,
-		lines = ['pseudo1', 'pseudo2', 'pseudo3', '...']; //enter here the desired followers
+		lines = ['Eramdam', 'QuantuumCleaner', 'PumpkinNoucki', 'LePatryote', 'Ramikaze', 'SayLaNouit', 'shellgratuit', 'richie3366', 'mollstam', 'jkbockstael', 'Mazavel', 'Herobrine']; //enter here the desired followers
 	
 	//this function loops through all the followers, and displays them char by char
 	function displayAll() {
@@ -23,7 +27,7 @@
 			//when we're done
 			document.getElementById('ff-container').innerHTML += '<br /><br />';
 			//closing sentence
-			charByChar('Unbelievable! You, [Subject Name Here], must be the pride of [Subject Hometown Here].', null, 0);
+			charByChar("Ça fait tellement longtemps que j'ai pas fait de #CuteFF que je peux pas mettre tout le monde, mais un groooos câlin à toutes et à tous <33", null, 0);
 		}
 	}
 })();
